@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+body{
+    background-color: #0e0e0e;
+}
+  
+.main {
+    max-width: 500px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 20%;
+    background-color: #fff;
+    box-shadow: 0 0 5px #fff;
+    text-align: center;
+}
+h1 {
+    font-family: 'Roboto' , sans-serif;
+    margin-top: 10px;
+}
+#title{
+    font-size: 2em;
+    font-family: 'Roboto', sans-serif;
+    margin: 15px;
+    padding: 0;
+}
+button{
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3em;
+    transition: all .5s;
+    cursor: pointer;
+    border-radius: 15px;
+
+}
+button:hover {
+    background-color: #e6e6e6;
+}
+
+button:active {
+    background-color: rgb(128, 128, 128);
+}
+.iniciar {
+    background-color: #51c214;
+    margin: 10px;
+}
+
+.pausar {
+    background-color: #d8c21d;
+    margin: 10px;
+}
+
+.parar {
+    background-color: #af2020;
+    margin: 10px;
+
+}
+@media (max-width: 600px){
+.main{
+    max-width: 450px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 20%;
+    background-color: #fff;
+    box-shadow: 0 0 5px #fff;
+    text-align: center;
+    }
+}
